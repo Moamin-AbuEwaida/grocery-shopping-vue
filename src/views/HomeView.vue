@@ -92,6 +92,44 @@
             </v-toolbar-title>
           </v-toolbar>
           <PartnersPart />
+          <v-card
+            flat
+            color="#e2f2e5"
+            class="rounded-xl mtop mbottom mx-10 pa-4"
+            height="350"
+          >
+            <v-row>
+              <v-col cols="12" xs="12" sm="12" md="5">
+                <v-card
+                  class="rounded-xl mt-n16 ml-16 mobile"
+                  outlined
+                  flat
+                  height="450"
+                  width="200"
+                >
+                  <v-img src="mobile.png"></v-img>
+                </v-card>
+              </v-col>
+              <v-col cols="12" xs="12" sm="6" md="7">
+                <h1 class="mt-16">Download App</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <br />
+                  Eius corrupti consequuntur possimus, pariatur mollitia <br />
+                  est cum voluptates aliquid nihil itaque! Dolorum temporibus
+                  quos <br />
+                  doloribus quaerat cupiditate, quasi necessitatibus optio ex.
+                </p>
+                <v-btn color="black" dark class="mb-10">
+                  <v-icon color="white" left>fab fa-apple</v-icon> App Store
+                </v-btn>
+                <v-btn color="black" dark class="ml-4 mb-10">
+                  <v-icon color="white" left>fab fa-google-play</v-icon> Play
+                  Store
+                </v-btn>
+              </v-col>
+            </v-row>
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
