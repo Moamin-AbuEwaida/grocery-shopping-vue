@@ -86,6 +86,12 @@
             </div>
             <ClientPart />
           </v-card>
+          <v-toolbar flat color="transparent" class="mt-8">
+            <v-toolbar-title class="text-h6">
+              Our Trusted Partners
+            </v-toolbar-title>
+          </v-toolbar>
+          <PartnersPart />
         </v-col>
       </v-row>
     </v-container>
@@ -98,6 +104,7 @@ import CategoryPart from "@/components/CategoryPart.vue";
 import ProductPart from "@/components/ProductPart.vue";
 import PackPart from "@/components/PackPart.vue";
 import ClientPart from "@/components/ClientPart.vue";
+import PartnersPart from "@/components/PartnersPart.vue";
 
 export default {
   name: "HomeView",
@@ -111,6 +118,7 @@ export default {
     ProductPart,
     PackPart,
     ClientPart,
+    PartnersPart,
   },
 };
 </script>
