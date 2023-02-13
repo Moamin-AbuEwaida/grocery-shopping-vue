@@ -57,6 +57,12 @@
             </v-btn-toggle>
           </v-toolbar>
           <CategoryPart />
+          <v-toolbar flat color="transparent" class="mt-5">
+            <v-toolbar-title class="text-h6">Popular Product</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <v-btn rounded color="green" dark class="px-8">See All</v-btn>
+          </v-toolbar>
+          <productPart />
         </v-col>
       </v-row>
     </v-container>
@@ -66,6 +72,7 @@
 <script>
 import NavBar from "@/components/NavBar.vue";
 import CategoryPart from "@/components/CategoryPart.vue";
+import ProductPart from "@/components/ProductPart.vue";
 
 export default {
   name: "HomeView",
@@ -76,6 +83,7 @@ export default {
   components: {
     NavBar,
     CategoryPart,
+    ProductPart,
   },
 };
 </script>

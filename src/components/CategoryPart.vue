@@ -35,8 +35,8 @@
                       <v-list-item-subtitle
                         :class="active ? 'green--text' : 'black--text'"
                         class="caption mt-4"
-                        >{{ category.title }}</v-list-item-subtitle
-                      >
+                        >{{ category.title }}
+                      </v-list-item-subtitle>
                     </v-list-item-content>
                   </v-list-item>
                 </v-col>
