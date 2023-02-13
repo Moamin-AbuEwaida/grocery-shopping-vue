@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkgrocery_shopping_vue"]=self["webpackChunkgrocery_shopping_vue"]||[]).push([[443],{7750:function(n,u,e){e.r(u),e.d(u,{default:function(){return c}});var s=function(){var n=this;n._self._c;return n._m(0)},t=[function(){var n=this,u=n._self._c;return u("div",{staticClass:"about"},[u("h1",[n._v("This is an about page")])])}],r=e(1001),i={},a=(0,r.Z)(i,s,t,!1,null,null,null),c=a.exports}}]);
+//# sourceMappingURL=about.844838c6.js.map
