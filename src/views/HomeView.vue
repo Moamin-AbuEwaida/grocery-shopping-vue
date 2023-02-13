@@ -56,6 +56,7 @@
               </v-btn>
             </v-btn-toggle>
           </v-toolbar>
+          <CategoryPart />
         </v-col>
       </v-row>
     </v-container>
@@ -64,6 +65,8 @@
 
 <script>
 import NavBar from "@/components/NavBar.vue";
+import CategoryPart from "@/components/CategoryPart.vue";
+
 export default {
   name: "HomeView",
   data: () => ({
@@ -72,6 +75,7 @@ export default {
 
   components: {
     NavBar,
+    CategoryPart,
   },
 };
 </script>
