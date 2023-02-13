@@ -63,6 +63,14 @@
             <v-btn rounded color="green" dark class="px-8">See All</v-btn>
           </v-toolbar>
           <productPart />
+          <v-card flat color="#e2f2e5" class="rounded-xl mt-8">
+            <v-toolbar flat color="transparent" class="mb-4">
+              <v-toolbar-title class="text-h6 mt-5"
+                >Popular Bundle Pack</v-toolbar-title
+              >
+            </v-toolbar>
+            <packPart />
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
@@ -73,6 +81,7 @@
 import NavBar from "@/components/NavBar.vue";
 import CategoryPart from "@/components/CategoryPart.vue";
 import ProductPart from "@/components/ProductPart.vue";
+import PackPart from "@/components/PackPart.vue";
 
 export default {
   name: "HomeView",
@@ -84,6 +93,7 @@ export default {
     NavBar,
     CategoryPart,
     ProductPart,
+    PackPart,
   },
 };
 </script>
