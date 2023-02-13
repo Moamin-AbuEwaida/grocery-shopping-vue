@@ -133,6 +133,7 @@
         </v-col>
       </v-row>
     </v-container>
+    <FooterPart />
   </v-app>
 </template>
 
@@ -143,6 +144,7 @@ import ProductPart from "@/components/ProductPart.vue";
 import PackPart from "@/components/PackPart.vue";
 import ClientPart from "@/components/ClientPart.vue";
 import PartnersPart from "@/components/PartnersPart.vue";
+import FooterPart from "@/components/FooterPart.vue";
 
 export default {
   name: "HomeView",
@@ -157,6 +159,7 @@ export default {
     PackPart,
     ClientPart,
     PartnersPart,
+    FooterPart,
   },
 };
 </script>
