@@ -71,6 +71,21 @@
             </v-toolbar>
             <packPart />
           </v-card>
+          <v-card flat color="#fafafa" class="mt-8 py-5 px-16">
+            <div
+              style="
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+              "
+            >
+              <h3>What Our Clients Say</h3>
+            </div>
+            <ClientPart />
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
@@ -82,6 +97,7 @@ import NavBar from "@/components/NavBar.vue";
 import CategoryPart from "@/components/CategoryPart.vue";
 import ProductPart from "@/components/ProductPart.vue";
 import PackPart from "@/components/PackPart.vue";
+import ClientPart from "@/components/ClientPart.vue";
 
 export default {
   name: "HomeView",
@@ -94,6 +110,7 @@ export default {
     CategoryPart,
     ProductPart,
     PackPart,
+    ClientPart,
   },
 };
 </script>
